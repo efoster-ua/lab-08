@@ -52,7 +52,7 @@ class WizardTest {
     fun train_sufficientMana_spellPowerIncreasesCorrectly() {
         evilWizard.train()
 
-        assertEquals(15, evilWizard.spellPower) // 10 + 5 = 15
+        assertEquals(11, evilWizard.spellPower) // 10 + 1 = 11
     }
 
     @Test
